@@ -3,11 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 4</title>
+    <title>Ejercicio 4: Tabla con color en las cabeceras.</title>
+    <style>
+        table{
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td{
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th{
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <h1>Tabla de Datos</h1>
-    <table border="1">
+    <table>
         <tr>
             <th>Nombre</th>
             <th>Edad</th>
@@ -19,8 +35,18 @@
             <td>Popayán</td>
         </tr>
         <tr>
+            <td>Viviana</td>
+            <td>40</td>
+            <td>Popayán</td>
+        </tr>
+        <tr>
             <td>Andres</td>
             <td>18</td>
+            <td>Popayán</td>
+        </tr>
+        <tr>
+            <td>Paula</td>
+            <td>15</td>
             <td>Popayán</td>
         </tr>
     </table>
